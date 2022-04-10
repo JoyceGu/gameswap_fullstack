@@ -1,0 +1,6 @@
+[09-Apr-2022 16:33:20 America/Los_Angeles] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'gatechUser'@'localhost' (using password: YES) in /Applications/mampstack-8.1.4-0/apache2/htdocs/Phase3_Sample_Submission/lib/common.php:61
+Stack trace:
+#0 /Applications/mampstack-8.1.4-0/apache2/htdocs/Phase3_Sample_Submission/lib/common.php(61): mysqli_connect()
+#1 /Applications/mampstack-8.1.4-0/apache2/htdocs/Phase3_Sample_Submission/login.php(2): include('...')
+#2 {main}
+  thrown in /Applications/mampstack-8.1.4-0/apache2/htdocs/Phase3_Sample_Submission/lib/common.php on line 61
